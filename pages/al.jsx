@@ -202,7 +202,7 @@ export default function Home() {
 
       <Center m="4rem">
         <Button colorScheme="red" size="lg"
-        onClick={() => window.location.href = "/contact/en"}
+        onClick={() => window.location.href = "/contact/al"}
         >Kontakto Tani</Button>
       </Center>
     </Template>
@@ -253,7 +253,7 @@ function Header() {
             color="white"
             borderWidth="2px"
             _hover={{ color: "gray.800", bg: "white" }}
-            onClick={() => window.location.href = "/contact/en"}
+            onClick={() => window.location.href = "/contact/al"}
             >
             Kontakto
           </Button>
@@ -281,7 +281,7 @@ function HeaderM() {
         color="white"
         borderWidth="2px"
         _hover={{ color: "gray.800", bg: "white" }}
-        onClick={() => window.location.href = "/contact/en"}
+        onClick={() => window.location.href = "/contact/al"}
       >
         Kontakto
       </Button>
