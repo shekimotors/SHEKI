@@ -8,6 +8,7 @@ export default function Template(props) {
         <>
             <Head>
                 <title>SHEKI Motors</title>
+                <meta name="google-site-verification" content="VKx8Q3h12OaI9S7Hihwt_Mfgn9da_SovSZZP1DjghwI" />
             </Head>
 
             <Navbar lang={props.lang} />
